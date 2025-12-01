@@ -1,16 +1,13 @@
 {
-  "name": "package.json",
+  "name": "floxyland",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Alikhames58.github.io/Floxyland",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "flowbite": "^3.1.2",
